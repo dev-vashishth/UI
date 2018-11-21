@@ -1,0 +1,72 @@
+.body {
+    background-color: #eee;
+    padding-top: 20px;
+}
+
+.title {
+    font-weight: bold;
+    color: red;
+}
+
+.date {
+    font-weight: bold;
+    color: #333;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.header {
+    margin: 20px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.icon {
+    float: right;
+    font-size: 36px;
+    color: red;
+}
+
+.person {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.subdate {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.growth {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.icons {
+    font-size: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
