@@ -22,3 +22,13 @@
     color: red;
     font-size : 13px;
 }
+
+.center-wrapper{
+    text-align: center
+}
+.center-wrapper-child{
+    margin: auto;
+}
+.mb-top-10{
+    margin-top : 10px;
+}

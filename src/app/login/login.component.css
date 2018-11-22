@@ -1,5 +1,9 @@
 .login-content{
     margin-top: 30vh;
+    text-align: center;
+}
+.login-content > .col-md-6{
+    margin: auto;
 }
 .subtitle{
     color : #555;
@@ -7,4 +11,39 @@
 }
 .tallo-btn-wrapper{
     margin-top: 30px;
+}
+.verification-input{
+    border-top: 0;
+    border-right: 0;
+    border-left : 0;
+    padding: 10px 10px 0px 10px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-size : 12px;
+    color: #555;
+}
+
+.verification-input:focus{
+    border-top: 0;
+    border-right: 0;
+    border-left : 0;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font-size : 12px;
+    color: #555;
+}
+.tel-number{
+    width: 50px;
+}
+.tel-number-wrapper{
+    display: inherit;
+    margin-top: 20px;
+}
+button.tallo-btn.danger.row.center-wrapper-child.col-md-5{
+    display: flex; justify-content: center;
+}
+.tel-span{
+    font-weight: bold;
+    font-size: 20px;
 }

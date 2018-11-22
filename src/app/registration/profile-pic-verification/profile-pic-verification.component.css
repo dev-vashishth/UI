@@ -40,3 +40,6 @@
 .pic-confirmation-wrapper{
     margin-left: -20px;
 }
+.confirm-wrapper{
+    display : inherit;
+}

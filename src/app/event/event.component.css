@@ -1,0 +1,31 @@
+.event-content{
+    margin-top: 5vh;
+}
+.event-discription {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.event-attendee {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.attendee-avatar {
+    height: auto;
+    width: 5%;
+    border-radius: 50%;
+    margin: 0px 2px;
+}
+.subtitle{
+    color : #555;
+    font-size : 14px;
+}
+.tallo-btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.event-add {
+    margin-top: 40px;
+    font-weight: 700;
+}
