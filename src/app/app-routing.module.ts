@@ -14,6 +14,8 @@ import { ZipcodeComponent } from './registration/zipcode/zipcode.component';
 import { ProfilepicComponent } from './registration/profilepic/profilepic.component';
 import { ContactinfoComponent } from './registration/contactinfo/contactinfo.component';
 import { ProfilePicVerificationComponent } from './registration/profile-pic-verification/profile-pic-verification.component';
+import { ProfileComponent } from './profile/profile.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
     {
@@ -22,12 +24,12 @@ const routes: Routes = [
       pathMatch: 'full'
     },
     {
-      path : 'header',
-      component : HeaderComponent
-    },
-    {
       path: 'home',
       component: TodayComponent
+    },
+    {
+      path : 'homePage',
+      component : HomeComponent
     },
     {
       path : 'login',
@@ -44,6 +46,10 @@ const routes: Routes = [
     {
       path : 'contactInfo',
       component : ContactinfoComponent
+    },
+    {
+      path : 'profile',
+      component : ProfileComponent
     },
     {
       path : 'profilePicConfirmation',

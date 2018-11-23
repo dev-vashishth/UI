@@ -32,3 +32,32 @@
 .mb-top-10{
     margin-top : 10px;
 }
+.p0{
+    padding: 0;
+}
+.align-center-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mb-top-15{
+    margin-top : 15px;
+}
+.mb-top-5{
+    margin-top: 5px;
+}
+.subtitle{
+    font-size: 16px;
+    color : #555;
+}
+.bold-font{
+    font-weight: bold;
+    color: #000;
+}
+.m0{
+    margin: 0;
+}
+.event-subtitle{
+    font-size: 12px;
+    color: #555;
+}

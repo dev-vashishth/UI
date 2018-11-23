@@ -21,6 +21,9 @@ import { ZipcodeComponent } from './registration/zipcode/zipcode.component';
 import { ProfilepicComponent } from './registration/profilepic/profilepic.component';
 import { ContactinfoComponent } from './registration/contactinfo/contactinfo.component';
 import { ProfilePicVerificationComponent } from './registration/profile-pic-verification/profile-pic-verification.component';
+import { ProfileComponent } from './profile/profile.component';
+import { MainHeaderComponent } from './shared/main-header/main-header.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { ProfilePicVerificationComponent } from './registration/profile-pic-veri
     ZipcodeComponent,
     ProfilepicComponent,
     ContactinfoComponent,
-    ProfilePicVerificationComponent
+    ProfilePicVerificationComponent,
+    ProfileComponent,
+    MainHeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

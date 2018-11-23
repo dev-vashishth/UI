@@ -1,0 +1,46 @@
+.add-event-card {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #e6e6e6;
+  border-radius: 10px;
+}
+
+.event-card {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #e6e6e6;
+  border-radius: 10px;
+}
+
+p.p20 {
+  font-weight: bold;
+}
+
+i.fa.fa-plus.col-md-1 {
+  font-size: 20px;
+  color: #DD0000;
+  margin-top: 8px;
+}
+.proile-circle-image{
+    border-radius: 50%;
+}
+.event-description{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000;
+    word-break: break-all;
+    font-weight: 500;
+}
+.event-date{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000;
+    word-break: break-all;
+    font-weight: bold;
+}
+i.fa.fa-arrow-right {
+    color: #DD0000;
+    font-size: 14px;
+    margin-top: 8px;
+}

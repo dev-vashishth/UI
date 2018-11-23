@@ -1,0 +1,31 @@
+.header {
+  box-shadow: 1px 1px 1px 1px #e6e6e6;
+  padding: 5px;
+}
+.h3-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  padding-top: 8px;
+}
+.header-nav {
+  display: inline-flex;
+}
+.header-nav>li {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  padding: 0px 15px;
+}
+.align-center-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-profile-wrapper{
+    display: inline-flex;
+}
+.proile-circle-image{
+    border-radius: 50%;
+    margin-left: 20px;
+}
