@@ -1,6 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+body {
+    background: #F9F9F9;
+}
 .h3-heading{
-    font-size: 24px;
+    font-size: 20px;
     color: #000;
     font-weight: bold;
 }
@@ -18,8 +21,8 @@
     cursor: pointer;
 }
 .danger {
-    border-color: #f44336;
-    color: red;
+    border-color: #DD0000;
+    color: #DD0000;
     font-size : 13px;
 }
 

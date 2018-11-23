@@ -1,4 +1,19 @@
+body {
+    background-color: #F9F9F9;
+}
+.fa {
+    margin-left: auto;
+}
+.event-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .event-content{
+    background: white;
+    padding: 25px 40px;
+    border-radius: 20px;
     margin-top: 5vh;
 }
 .event-discription {
@@ -28,4 +43,13 @@
 .event-add {
     margin-top: 40px;
     font-weight: 700;
+    cursor: pointer;
+    background: white;
+    padding: 15px 15px;
+    border-radius: 15px;
+    margin-top: 5vh;
+}
+.fa-plus {
+    color: #DD0000;
+    margin-top: 5px;
 }
