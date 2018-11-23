@@ -2,6 +2,14 @@
 body {
     background: #F9F9F9;
 }
+.icon {
+    width: 40px;
+}
+.h4-heading{
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
 .h3-heading{
     font-size: 20px;
     color: #000;

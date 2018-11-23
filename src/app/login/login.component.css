@@ -1,3 +1,6 @@
+body {
+    background: #000!important;
+}
 .login-content{
     margin-top: 30vh;
     text-align: center;
@@ -7,7 +10,7 @@
 }
 .subtitle{
     color : #555;
-    font-size : 16px;
+    font-size : 18px;
 }
 .tallo-btn-wrapper{
     margin-top: 30px;
@@ -40,8 +43,11 @@
     display: inherit;
     margin-top: 20px;
 }
-button.tallo-btn.danger.row.center-wrapper-child.col-md-5{
-    display: flex; justify-content: center;
+button.tallo-btn.danger.row.center-wrapper-child.col-md-6{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: 16px;
 }
 .tel-span{
     font-weight: bold;
