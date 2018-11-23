@@ -8,6 +8,7 @@
   font-weight: bold;
   color: #000;
   padding-top: 8px;
+  cursor: pointer;
 }
 .header-nav {
   display: inline-flex;
@@ -17,6 +18,11 @@
   color: #000;
   font-weight: bold;
   padding: 0px 15px;
+  cursor: pointer;
+}
+.header-nav>li>a {
+  text-decoration: none;
+  color: inherit;
 }
 .align-center-class {
   display: flex;

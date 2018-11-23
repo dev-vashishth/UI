@@ -46,8 +46,6 @@ body {
 button.tallo-btn.danger.row.center-wrapper-child.col-md-6{
     display: flex;
     justify-content: center;
-    height: 40px;
-    font-size: 16px;
 }
 .tel-span{
     font-weight: bold;
