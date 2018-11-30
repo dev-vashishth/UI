@@ -16,6 +16,12 @@ body {
     border-radius: 20px;
     margin-top: 5vh;
 }
+.event-content-modal{
+    background: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 5vh;
+}
 .event-discription {
     font-size: 16px;
     margin-top: 20px;
@@ -52,4 +58,21 @@ body {
 .fa-plus {
     color: #DD0000;
     margin-top: 5px;
+}
+i.fa.fa-2x.fa-flag-o:hover {
+    cursor: pointer;
+}
+
+.modal{
+    margin-top: 5vh;
+}
+#event-name {
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+}
+#event-desc {
+    width: 100%;
+    height: 180px;
+    font-size: 20px;
 }

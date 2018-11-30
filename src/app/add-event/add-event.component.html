@@ -1,0 +1,193 @@
+<head>
+</head>
+<app-main-header></app-main-header>
+<div class="col-md-12">
+  <span class="bigTitle"><strong>Add an event.</strong></span>
+  <div class="event-container container">
+    <div class="event-content col-md-6">
+      <div class="row">
+        <h3 class="h3-heading">
+          What’s the topic?
+        </h3>
+      </div>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+
+      <div class="row">
+        <h3 class="h3-heading mt20">
+          Description
+        </h3>
+      </div>
+      <p class="row event-discription">
+        Let attendees know what to expect, how to find you, and any additional details.
+      </p>
+      <textarea name="event-desc" class="row" id="event-desc"></textarea>
+    </div>
+
+    <div class="event-content mt20 col-md-6">
+      <div class="row">
+        <h3 class="h3-heading mt20">
+          When will the event occur?
+        </h3>
+      </div>
+      <p class="row event-discription">
+        Start Time
+      </p>
+      <div class="row">
+        <input type="text" maxlength="80" name="event-startDate" class="col-md-7" id="event-name" />
+        <input type="text" maxlength="80" name="event-startTime" class="col-md-offset-1 col-md-4" id="event-name" />
+      </div>
+      <p class="row event-discription">
+        End Time
+      </p>
+      <div class="row">
+        <input type="text" maxlength="80" name="event-endDate" class="col-md-7" id="event-name" />
+        <input type="text" maxlength="80" name="event-endTime" class="col-md-offset-1 col-md-4" id="event-name" />
+      </div>
+    </div>
+
+    <div class="event-content mt20 col-md-6">
+      <div class="row">
+        <h3 class="h3-heading mt20">
+          Who is hosting the event?
+        </h3>
+      </div>
+      <p class="row event-discription">
+        If the organizer is you, simply type your name.If it's amd organization, type the organization's name.
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+    </div>
+
+    <div class="event-content mt20 col-md-6">
+      <div class="row">
+        <h3 class="h3-heading mt20">
+          Are you offering tickets?
+        </h3>
+      </div>
+      <p class="row event-discription">
+        If you are offering tickets for sale, add a link to Eventbrite ot any other ticketing service.
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+    </div>
+    <div class="event-content mt20 col-md-6">
+      <div class="row">
+        <h3 class="h3-heading mt20">
+          Events may be virtual or in person.
+        </h3>
+      </div>
+      <p class="row event-discription">
+        Choose a Person to set a physical location, or Online to add a web address for an online meeting.
+      </p>
+      <div class="row">
+        <div class="col-md-12 mt20">
+          <div class="col-md-6">
+            <button class="tallo-btn danger col-md-12">In Person</button>
+          </div>
+          <div class="col-md-6">
+            <button class="tallo-btn danger col-md-12">Online</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="event-content mt20 col-md-6">
+
+      <div class="row">
+        <h3 class="h3-heading mt20">
+          What is the web address of the event?
+        </h3>
+      </div>
+      <p class="row event-discription">
+        Add the web address to your conference service or live event (e.g. Facebook,Live,Zoom,etc.)
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+    </div>
+    <div class="event-content mt20 col-md-6">
+
+      <div class="row">
+        <h3 class="h3-heading mt20">
+          What is the location of the event?
+        </h3>
+      </div>
+      <p class="row event-discription">
+        Location/Event
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+      <p class="row event-discription">
+        Address
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+      <p class="row event-discription">
+        Building Number,Site,Floor,etc.
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+      <p class="row event-discription">
+        City
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+      <p class="row event-discription">
+        State
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+      <p class="row event-discription">
+        Zip Code
+      </p>
+      <input type="text" maxlength="80" name="event-name" class="row" id="event-name" />
+    </div>
+    <div class="row event-add col-md-6">
+      <h3 class="h3-heading">Others may join us.</h3>
+      <label class="event-add-checkbox">
+        <input type="checkbox" name="" checked="checked" class="" />
+        <span class="checkmark"></span>
+      </label>
+    </div>
+    <div class="row col-md-offset-2 col-md-4 finishBtn">
+      <button class="tallo-btn danger col-md-12" (click)="openModal()">Finish</button>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':display}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="event-content-modal col-md-12 no-padding">
+          <div class="row">
+            <h3 class="h3-heading">
+              Thanks!
+            </h3>
+
+          </div>
+          <div class="row mt20">
+            <p class="p-bold">We appreciate your help in making Talloo better.</p>
+          </div>
+          <div class="row">
+            <p class="p-bold">Here's a penguin.</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <img src="assets/images/penguin.PNG" height="100" class="center-wrapper-child" width="100" class="proile-circle-image" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-default" (click)="onCloseHandled()">Close</button> -->
+        <div class="col-md-12">
+          <div class="col-md-12">
+            <button class="tallo-btn danger col-md-6 col-md-offset-3" (click)="onCloseHandled()">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  (function (funcName, baseObj) {
+    //content here
+    debugger;
+    $('#event-name').characterCounter({
+      max: 80
+    });
+  })("docReady", window);
+  $(document).ready(function () {
+  });
+</script>

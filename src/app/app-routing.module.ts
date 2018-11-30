@@ -16,6 +16,7 @@ import { ContactinfoComponent } from './registration/contactinfo/contactinfo.com
 import { ProfilePicVerificationComponent } from './registration/profile-pic-verification/profile-pic-verification.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
+import { AddEventComponent } from './add-event/add-event.component';
 
 const routes: Routes = [
     {
@@ -70,6 +71,10 @@ const routes: Routes = [
     {
       path: 'messages',
       component: MessagesComponent
+    },
+    {
+      path: 'addevent',
+      component: AddEventComponent
     }
 ];
 

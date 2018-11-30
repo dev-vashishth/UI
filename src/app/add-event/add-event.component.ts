@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-event',
-  templateUrl: './event.component.html',
-  styleUrls: ['./event.component.css']
+  selector: 'app-add-event',
+  templateUrl: './add-event.component.html',
+  styleUrls: ['./add-event.component.css']
 })
-export class EventComponent implements OnInit {
+export class AddEventComponent implements OnInit {
 
   constructor() { }
 
@@ -15,8 +15,8 @@ export class EventComponent implements OnInit {
   }
 
   openModal() {
-       this.display = 'block';
-    }
+    this.display = 'block';
+  }
 
   onCloseHandled() {
     this.display = 'none';

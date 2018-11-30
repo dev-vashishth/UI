@@ -24,6 +24,7 @@ import { ProfilePicVerificationComponent } from './registration/profile-pic-veri
 import { ProfileComponent } from './profile/profile.component';
 import { MainHeaderComponent } from './shared/main-header/main-header.component';
 import { HomeComponent } from './home/home.component';
+import { AddEventComponent } from './add-event/add-event.component';
 
 @NgModule({
   declarations: [
@@ -41,14 +42,15 @@ import { HomeComponent } from './home/home.component';
     ProfilePicVerificationComponent,
     ProfileComponent,
     MainHeaderComponent,
-    HomeComponent
+    HomeComponent,
+    AddEventComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     // HttpClientXsrfModule.disable(),
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase),
+    // AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     AngularFirestoreModule

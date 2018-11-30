@@ -17,10 +17,9 @@ p.p20 {
   font-weight: bold;
 }
 
-i.fa.fa-plus.col-md-1 {
-  font-size: 20px;
-  color: #DD0000;
-  margin-top: 8px;
+i.fa {
+    color: #DD0000;
+    margin-top: 8px;  
 }
 .proile-circle-image{
     border-radius: 50%;
@@ -38,9 +37,4 @@ i.fa.fa-plus.col-md-1 {
     color: #000;
     word-break: break-all;
     font-weight: bold;
-}
-i.fa.fa-arrow-right {
-    color: #DD0000;
-    font-size: 14px;
-    margin-top: 8px;
 }
